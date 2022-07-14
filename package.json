@@ -1,9 +1,9 @@
 {
   "name": "vue3-project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve",
+    "start": "vue-cli-service serve --mode beta",
     "build:beta": "vue-cli-service build --mode beta",
     "build:prod": "vue-cli-service build --mode prod",
     "build": "concurrently \"npm run build:beta\" \"npm run build:prod\" ",
