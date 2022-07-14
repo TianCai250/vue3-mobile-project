@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    font-family: 'PingFangSC-Regular';
+}
+html {
+    font-size: 13.3333vw;
+}
+body {
+    /* IOS禁止微信调整字体大小 */
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div {
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    clear: both;
+}
