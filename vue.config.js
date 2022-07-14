@@ -19,7 +19,7 @@ module.exports = defineConfig({
             postcss: {
                 postcssOptions: {
                     plugins: [
-                        require('postcss-pxtorem')({ rootValue: 100 }) // 换算的基数
+                        require('postcss-pxtorem')({ rootValue: 100,propList: ['*'] }) // 换算的基数
                     ]
                 }
             }
